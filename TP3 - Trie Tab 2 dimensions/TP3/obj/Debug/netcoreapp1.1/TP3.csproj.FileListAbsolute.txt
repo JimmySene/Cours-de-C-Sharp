@@ -1,0 +1,20 @@
+C:\Users\DarkFelin\source\repos\TP3\TP3\bin\Debug\netcoreapp1.1\TP3.deps.json
+C:\Users\DarkFelin\source\repos\TP3\TP3\bin\Debug\netcoreapp1.1\TP3.runtimeconfig.json
+C:\Users\DarkFelin\source\repos\TP3\TP3\bin\Debug\netcoreapp1.1\TP3.runtimeconfig.dev.json
+C:\Users\DarkFelin\source\repos\TP3\TP3\bin\Debug\netcoreapp1.1\TP3.dll
+C:\Users\DarkFelin\source\repos\TP3\TP3\bin\Debug\netcoreapp1.1\TP3.pdb
+C:\Users\DarkFelin\source\repos\TP3\TP3\obj\Debug\netcoreapp1.1\TP3.csprojResolveAssemblyReference.cache
+C:\Users\DarkFelin\source\repos\TP3\TP3\obj\Debug\netcoreapp1.1\TP3.csproj.CoreCompileInputs.cache
+C:\Users\DarkFelin\source\repos\TP3\TP3\obj\Debug\netcoreapp1.1\TP3.AssemblyInfo.cs
+C:\Users\DarkFelin\source\repos\TP3\TP3\obj\Debug\netcoreapp1.1\TP3.dll
+C:\Users\DarkFelin\source\repos\TP3\TP3\obj\Debug\netcoreapp1.1\TP3.pdb
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\bin\Debug\netcoreapp1.1\TP3.deps.json
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\bin\Debug\netcoreapp1.1\TP3.runtimeconfig.json
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\bin\Debug\netcoreapp1.1\TP3.runtimeconfig.dev.json
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\bin\Debug\netcoreapp1.1\TP3.dll
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\bin\Debug\netcoreapp1.1\TP3.pdb
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\obj\Debug\netcoreapp1.1\TP3.csprojResolveAssemblyReference.cache
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\obj\Debug\netcoreapp1.1\TP3.csproj.CoreCompileInputs.cache
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\obj\Debug\netcoreapp1.1\TP3.AssemblyInfo.cs
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\obj\Debug\netcoreapp1.1\TP3.dll
+C:\Users\DarkFelin\source\repos\TP3 - Trie Tab 2 dimensions\TP3\obj\Debug\netcoreapp1.1\TP3.pdb
