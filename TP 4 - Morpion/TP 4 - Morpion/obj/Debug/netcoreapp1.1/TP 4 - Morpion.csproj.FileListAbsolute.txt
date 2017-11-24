@@ -1,0 +1,10 @@
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\bin\Debug\netcoreapp1.1\TP 4 - Morpion.deps.json
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\bin\Debug\netcoreapp1.1\TP 4 - Morpion.runtimeconfig.json
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\bin\Debug\netcoreapp1.1\TP 4 - Morpion.runtimeconfig.dev.json
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\bin\Debug\netcoreapp1.1\TP 4 - Morpion.dll
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\bin\Debug\netcoreapp1.1\TP 4 - Morpion.pdb
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\obj\Debug\netcoreapp1.1\TP 4 - Morpion.csprojResolveAssemblyReference.cache
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\obj\Debug\netcoreapp1.1\TP 4 - Morpion.csproj.CoreCompileInputs.cache
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\obj\Debug\netcoreapp1.1\TP 4 - Morpion.AssemblyInfo.cs
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\obj\Debug\netcoreapp1.1\TP 4 - Morpion.dll
+C:\Users\DarkFelin\source\repos\TP 4 - Morpion\TP 4 - Morpion\obj\Debug\netcoreapp1.1\TP 4 - Morpion.pdb
