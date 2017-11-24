@@ -1,0 +1,10 @@
+C:\Users\DarkFelin\source\repos\DST1\DST1\bin\Debug\netcoreapp1.1\DST1.deps.json
+C:\Users\DarkFelin\source\repos\DST1\DST1\bin\Debug\netcoreapp1.1\DST1.runtimeconfig.json
+C:\Users\DarkFelin\source\repos\DST1\DST1\bin\Debug\netcoreapp1.1\DST1.runtimeconfig.dev.json
+C:\Users\DarkFelin\source\repos\DST1\DST1\obj\Debug\netcoreapp1.1\DST1.csprojResolveAssemblyReference.cache
+C:\Users\DarkFelin\source\repos\DST1\DST1\obj\Debug\netcoreapp1.1\DST1.csproj.CoreCompileInputs.cache
+C:\Users\DarkFelin\source\repos\DST1\DST1\obj\Debug\netcoreapp1.1\DST1.AssemblyInfo.cs
+C:\Users\DarkFelin\source\repos\DST1\DST1\bin\Debug\netcoreapp1.1\DST1.dll
+C:\Users\DarkFelin\source\repos\DST1\DST1\bin\Debug\netcoreapp1.1\DST1.pdb
+C:\Users\DarkFelin\source\repos\DST1\DST1\obj\Debug\netcoreapp1.1\DST1.dll
+C:\Users\DarkFelin\source\repos\DST1\DST1\obj\Debug\netcoreapp1.1\DST1.pdb
