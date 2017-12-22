@@ -92,13 +92,10 @@ namespace TP_4___Morpion
             Console.WriteLine("\n=== MODE ALEATOIRE ===\n");
 
             bool fini = false;
-            bool tourFini = false;
 
             Random commence = new Random();
             int joueur = commence.Next(0, 1);
-
-           
-            
+ 
             int positionX;
             int positionY;
 
@@ -148,6 +145,22 @@ namespace TP_4___Morpion
         static void modeOffensif(ref string[,] plateau)
         {
             Console.WriteLine("\n=== MODE OFFENSIF ===\n");
+
+            bool fini = false;
+
+            Random commence = new Random();
+            int joueur = commence.Next(0, 1);
+
+            do
+            {
+                if(joueur == 0)
+                {
+
+                } else
+                {
+
+                }
+            } while (!fini);
             
             
 
@@ -156,12 +169,205 @@ namespace TP_4___Morpion
         static void modeDefensif(ref string[,] plateau)
         {
             Console.WriteLine("\n=== MODE DEFENSIF ===\n");
+
+
+            bool fini = false;
+            int debut = 1;
+
+            Random commence = new Random();
+            int joueur = commence.Next(0, 1);
+
+
+            int positionX = 0;
+            int positionY = 0;
+
+            string test = "";
+
+            do
+            {
+                if (joueur == 0)
+                {
+                    if (debut == 1)
+                    {
+                        Random x = new Random();
+                        Random y = new Random();
+                        positionX = x.Next(0, 3);
+                        positionY = y.Next(0, 3);
+
+                        plateau[positionX, positionY] = "X";
+
+                        debut = 0;
+                    } else
+                    {
+                        // LIGNE HORIZONTALE 1
+                        if(plateau[0,0] == "O" && plateau[0,1] == "O" && plateau[0,2] == "_")
+                        {
+                            plateau[0, 2] = "X";
+                        } else if(plateau[0, 1] == "O" && plateau[0, 2] == "O" && plateau[0, 0] == "_")
+                        {
+                            plateau[0, 0] = "X";
+                        }
+                        else if (plateau[0, 0] == "O" && plateau[0, 2] == "O" && plateau[0, 1] == "_")
+                        {
+                            plateau[0, 1] = "X";
+                        }
+                        // LIGNE HORIZONTALE 2
+                        else if (plateau[1, 0] == "O" && plateau[1, 1] == "O" && plateau[1, 2] == "_")
+                        {
+                            plateau[1, 2] = "X";
+                        }
+                        else if (plateau[1, 1] == "O" && plateau[1, 2] == "O" && plateau[1, 0] == "_")
+                        {
+                            plateau[1, 0] = "X";
+                        }
+                        else if (plateau[1, 0] == "O" && plateau[1, 2] == "O" && plateau[1, 1] == "_")
+                        {
+                            plateau[1, 1] = "X";
+                        }
+                        // LIGNE HORIZONTALE 3
+                        else if (plateau[2, 0] == "O" && plateau[2, 1] == "O" && plateau[2, 2] == "_")
+                        {
+                            plateau[2, 2] = "X";
+                        }
+                        else if (plateau[2, 1] == "O" && plateau[2, 2] == "O" && plateau[2, 0] == "_")
+                        {
+                            plateau[2, 0] = "X";
+                        }
+                        else if (plateau[2, 0] == "O" && plateau[2, 2] == "O" && plateau[2, 1] == "_")
+                        {
+                            plateau[2, 1] = "X";
+                        }
+                        // LIGNE VERTICALE 1
+                        else if (plateau[0, 0] == "O" && plateau[1, 0] == "O" && plateau[2, 0] == "_")
+                        {
+                            plateau[2, 0] = "X";
+                        }
+                        else if (plateau[1, 0] == "O" && plateau[2, 0] == "O" && plateau[0, 0] == "_")
+                        {
+                            plateau[0, 0] = "X";
+                        }
+                        else if (plateau[0, 0] == "O" && plateau[2, 0] == "O" && plateau[1, 0] == "_")
+                        {
+                            plateau[1, 0] = "X";
+                        }
+                        // LIGNE VERTICALE 2
+                        else if (plateau[0, 1] == "O" && plateau[1, 1] == "O" && plateau[2, 1] == "_")
+                        {
+                            plateau[2, 1] = "X";
+                        }
+                        else if (plateau[1, 1] == "O" && plateau[2, 1] == "O" && plateau[0, 1] == "_")
+                        {
+                            plateau[0, 1] = "X";
+                        }
+                        else if (plateau[0, 1] == "O" && plateau[2, 1] == "O" && plateau[1, 1] == "_")
+                        {
+                            plateau[1, 1] = "X";
+                        }
+                        // LIGNE VERTICALE 3
+                        else if (plateau[0, 2] == "O" && plateau[1, 2] == "O" && plateau[2, 2] == "_")
+                        {
+                            plateau[2, 2] = "X";
+                        }
+                        else if (plateau[1, 2] == "O" && plateau[2, 2] == "O" && plateau[0, 2] == "_")
+                        {
+                            plateau[0, 2] = "X";
+                        }
+                        else if (plateau[0, 2] == "O" && plateau[2, 2] == "O" && plateau[1, 2] == "_")
+                        {
+                            plateau[1, 2] = "X";
+                        }
+                        // DIAGONALE 1
+                        else if (plateau[0, 0] == "O" && plateau[1, 1] == "O" && plateau[2, 2] == "_")
+                        {
+                            plateau[2, 2] = "X";
+                        }
+                        else if (plateau[1, 1] == "O" && plateau[2, 2] == "O" && plateau[0, 0] == "_")
+                        {
+                            plateau[0, 0] = "X";
+                        }
+                        else if (plateau[0, 0] == "O" && plateau[2, 2] == "O" && plateau[1, 1] == "_")
+                        {
+                            plateau[1, 1] = "X";
+                        }
+                        // DIAGONALE 2
+                        else if (plateau[2, 0] == "O" && plateau[1, 1] == "O" && plateau[0, 2] == "_")
+                        {
+                            plateau[0, 2] = "X";
+                        }
+                        else if (plateau[0, 2] == "O" && plateau[2, 2] == "O" && plateau[1, 1] == "_")
+                        {
+                            plateau[1, 1] = "X";
+                        }
+                        else if (plateau[1, 1] == "O" && plateau[0, 2] == "O" && plateau[2, 0] == "_")
+                        {
+                            plateau[2, 0] = "X";
+                        }
+                        else
+                        {
+                           
+
+                            bool bon = false;
+                            do
+                            {
+                                Random x = new Random();
+                                Random y = new Random();
+                                positionX = x.Next(0, 3);
+                                positionY = y.Next(0, 3);
+                                if (plateau[positionX, positionY] == "_")
+                                {
+                                    plateau[positionX, positionY] = "X";
+                                    bon = true;
+                                }      
+                                    
+                            } while (!bon);
+                            
+                            
+                        }
+                    }
+
+                        Console.WriteLine("\n\nL'ordinateur joue... ");
+                        affichePlateau(plateau);
+                        Console.WriteLine("\n\nL'ordinateur a joue ! C'est a votre tour...\n");
+                        joueur = 1;
+                        verifGagne(ref plateau, ref fini);
+
+                }
+                else
+                {
+                    Console.WriteLine("Choisissez la position X : ");
+                   
+                 
+                    
+                    
+                        positionX = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Choisissez la position Y : ");
+                        positionY = int.Parse(Console.ReadLine());
+                        
+                        
+
+                        if (plateau[positionX, positionY] == "_")
+                        {
+                            plateau[positionX, positionY] = "O";
+                            affichePlateau(plateau);
+                            joueur = 0;
+                            verifGagne(ref plateau, ref fini);
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Cette case est deja prise !");
+                        }
+                            
+                   
+                }
+            } while (!fini);
         }
 
         static void verifGagne(ref string[,] plateau, ref bool fini)
         {
             int compteurO = 0;
             int compteurX = 0;
+            int compteurG = 0;
 
             for(int i = 0; i < 3; i++)
             {
@@ -175,6 +381,10 @@ namespace TP_4___Morpion
                     {
                         compteurX++;
                     }
+                    if(plateau[i,j] != "_")
+                    {
+                        compteurG++;
+                    }
                 }
                 if(compteurO == 3)
                 {
@@ -184,6 +394,11 @@ namespace TP_4___Morpion
                 } else if(compteurX == 3)
                 {
                     Console.WriteLine("Vous avez perdu !");
+                    fini = true;
+                    break;
+                } else if(compteurG == 9)
+                {
+                    Console.WriteLine("Match nul !");
                     fini = true;
                     break;
                 }
@@ -276,6 +491,20 @@ namespace TP_4___Morpion
                     Console.WriteLine("Vous avez perdu !");
                     fini = true;
                 }
+            }
+        }
+
+        static void verifCoups(string[,] plateau, string joueur)
+        {
+            string opposant;
+            switch(joueur)
+            {
+                case "X":
+                    opposant = "O";
+                    break;
+                case "O":
+                    opposant = "X";
+                    break;
             }
         }
     }

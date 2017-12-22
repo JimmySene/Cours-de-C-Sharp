@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\DarkFelin\\source\\repos\\TP1 - Valeurs les plus representes\\ConsoleApp1\\projetConsole1.csproj",
-      "projectName": "projetConsole1",
-      "projectPath": "C:\\Users\\DarkFelin\\source\\repos\\TP1 - Valeurs les plus representes\\ConsoleApp1\\projetConsole1.csproj",
+      "projectUniqueName": "C:\\Users\\DarkFelin\\source\\repos\\TP Hatim\\TP Hatim\\TP Hatim.csproj",
+      "projectName": "TP Hatim",
+      "projectPath": "C:\\Users\\DarkFelin\\source\\repos\\TP Hatim\\TP Hatim\\TP Hatim.csproj",
       "packagesPath": "C:\\Users\\DarkFelin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DarkFelin\\source\\repos\\TP1 - Valeurs les plus representes\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\DarkFelin\\source\\repos\\TP Hatim\\TP Hatim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DarkFelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
