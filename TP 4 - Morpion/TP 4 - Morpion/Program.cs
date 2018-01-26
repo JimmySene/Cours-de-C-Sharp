@@ -181,8 +181,6 @@ namespace TP_4___Morpion
             int positionX = 0;
             int positionY = 0;
 
-            string test = "";
-
             do
             {
                 if (joueur == 0)
@@ -304,8 +302,6 @@ namespace TP_4___Morpion
                         }
                         else
                         {
-                           
-
                             bool bon = false;
                             do
                             {
@@ -367,7 +363,7 @@ namespace TP_4___Morpion
         {
             int compteurO = 0;
             int compteurX = 0;
-            int compteurG = 0;
+            int compteurG = 0; // compteur général
 
             for(int i = 0; i < 3; i++)
             {
@@ -491,20 +487,6 @@ namespace TP_4___Morpion
                     Console.WriteLine("Vous avez perdu !");
                     fini = true;
                 }
-            }
-        }
-
-        static void verifCoups(string[,] plateau, string joueur)
-        {
-            string opposant;
-            switch(joueur)
-            {
-                case "X":
-                    opposant = "O";
-                    break;
-                case "O":
-                    opposant = "X";
-                    break;
             }
         }
     }

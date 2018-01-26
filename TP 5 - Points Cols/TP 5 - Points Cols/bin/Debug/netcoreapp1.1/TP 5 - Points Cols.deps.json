@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "tp 5 - points cols/1.0.0": {
+        "runtime": {
+          "TP 5 - Points Cols.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tp 5 - points cols/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

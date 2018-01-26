@@ -1,0 +1,10 @@
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\bin\Debug\netcoreapp1.1\TP 5 - Points Cols.deps.json
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\bin\Debug\netcoreapp1.1\TP 5 - Points Cols.runtimeconfig.json
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\bin\Debug\netcoreapp1.1\TP 5 - Points Cols.runtimeconfig.dev.json
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\bin\Debug\netcoreapp1.1\TP 5 - Points Cols.dll
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\bin\Debug\netcoreapp1.1\TP 5 - Points Cols.pdb
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\obj\Debug\netcoreapp1.1\TP 5 - Points Cols.csprojResolveAssemblyReference.cache
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\obj\Debug\netcoreapp1.1\TP 5 - Points Cols.csproj.CoreCompileInputs.cache
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\obj\Debug\netcoreapp1.1\TP 5 - Points Cols.AssemblyInfo.cs
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\obj\Debug\netcoreapp1.1\TP 5 - Points Cols.dll
+C:\Users\DarkFelin\source\repos\TP 5 - Points Cols\TP 5 - Points Cols\obj\Debug\netcoreapp1.1\TP 5 - Points Cols.pdb
