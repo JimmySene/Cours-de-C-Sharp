@@ -1,2 +1,2 @@
-# c-
-Cours et tests en C#
+# c-sharp
+Cours, TP, DST et tests en C#
