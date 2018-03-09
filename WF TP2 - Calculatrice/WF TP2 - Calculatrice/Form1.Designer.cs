@@ -47,12 +47,13 @@
             this.bt_m = new System.Windows.Forms.Button();
             this.bt_r = new System.Windows.Forms.Button();
             this.bt_c = new System.Windows.Forms.Button();
+            this.rtb_ruban = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // tb_resultat
             // 
             this.tb_resultat.Location = new System.Drawing.Point(19, 19);
-            this.tb_resultat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_resultat.Margin = new System.Windows.Forms.Padding(2);
             this.tb_resultat.Name = "tb_resultat";
             this.tb_resultat.Size = new System.Drawing.Size(245, 20);
             this.tb_resultat.TabIndex = 0;
@@ -60,7 +61,7 @@
             // bt_1
             // 
             this.bt_1.Location = new System.Drawing.Point(26, 150);
-            this.bt_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_1.Margin = new System.Windows.Forms.Padding(2);
             this.bt_1.Name = "bt_1";
             this.bt_1.Size = new System.Drawing.Size(37, 36);
             this.bt_1.TabIndex = 1;
@@ -71,7 +72,7 @@
             // bt_2
             // 
             this.bt_2.Location = new System.Drawing.Point(80, 150);
-            this.bt_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_2.Margin = new System.Windows.Forms.Padding(2);
             this.bt_2.Name = "bt_2";
             this.bt_2.Size = new System.Drawing.Size(37, 36);
             this.bt_2.TabIndex = 2;
@@ -82,7 +83,7 @@
             // bt_3
             // 
             this.bt_3.Location = new System.Drawing.Point(135, 150);
-            this.bt_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_3.Margin = new System.Windows.Forms.Padding(2);
             this.bt_3.Name = "bt_3";
             this.bt_3.Size = new System.Drawing.Size(37, 36);
             this.bt_3.TabIndex = 3;
@@ -93,7 +94,7 @@
             // bt_4
             // 
             this.bt_4.Location = new System.Drawing.Point(26, 100);
-            this.bt_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_4.Margin = new System.Windows.Forms.Padding(2);
             this.bt_4.Name = "bt_4";
             this.bt_4.Size = new System.Drawing.Size(37, 36);
             this.bt_4.TabIndex = 4;
@@ -104,7 +105,7 @@
             // bt_5
             // 
             this.bt_5.Location = new System.Drawing.Point(80, 100);
-            this.bt_5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_5.Margin = new System.Windows.Forms.Padding(2);
             this.bt_5.Name = "bt_5";
             this.bt_5.Size = new System.Drawing.Size(37, 36);
             this.bt_5.TabIndex = 5;
@@ -115,7 +116,7 @@
             // bt_6
             // 
             this.bt_6.Location = new System.Drawing.Point(135, 100);
-            this.bt_6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_6.Margin = new System.Windows.Forms.Padding(2);
             this.bt_6.Name = "bt_6";
             this.bt_6.Size = new System.Drawing.Size(37, 36);
             this.bt_6.TabIndex = 6;
@@ -126,7 +127,7 @@
             // bt_7
             // 
             this.bt_7.Location = new System.Drawing.Point(26, 50);
-            this.bt_7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_7.Margin = new System.Windows.Forms.Padding(2);
             this.bt_7.Name = "bt_7";
             this.bt_7.Size = new System.Drawing.Size(37, 36);
             this.bt_7.TabIndex = 7;
@@ -137,7 +138,7 @@
             // bt_8
             // 
             this.bt_8.Location = new System.Drawing.Point(80, 50);
-            this.bt_8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_8.Margin = new System.Windows.Forms.Padding(2);
             this.bt_8.Name = "bt_8";
             this.bt_8.Size = new System.Drawing.Size(37, 36);
             this.bt_8.TabIndex = 8;
@@ -148,7 +149,7 @@
             // bt_9
             // 
             this.bt_9.Location = new System.Drawing.Point(135, 50);
-            this.bt_9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_9.Margin = new System.Windows.Forms.Padding(2);
             this.bt_9.Name = "bt_9";
             this.bt_9.Size = new System.Drawing.Size(37, 36);
             this.bt_9.TabIndex = 9;
@@ -159,7 +160,7 @@
             // bt_plus
             // 
             this.bt_plus.Location = new System.Drawing.Point(212, 50);
-            this.bt_plus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_plus.Margin = new System.Windows.Forms.Padding(2);
             this.bt_plus.Name = "bt_plus";
             this.bt_plus.Size = new System.Drawing.Size(37, 36);
             this.bt_plus.TabIndex = 10;
@@ -170,7 +171,7 @@
             // bt_moins
             // 
             this.bt_moins.Location = new System.Drawing.Point(212, 100);
-            this.bt_moins.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_moins.Margin = new System.Windows.Forms.Padding(2);
             this.bt_moins.Name = "bt_moins";
             this.bt_moins.Size = new System.Drawing.Size(37, 36);
             this.bt_moins.TabIndex = 11;
@@ -181,7 +182,7 @@
             // bt_fois
             // 
             this.bt_fois.Location = new System.Drawing.Point(212, 150);
-            this.bt_fois.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_fois.Margin = new System.Windows.Forms.Padding(2);
             this.bt_fois.Name = "bt_fois";
             this.bt_fois.Size = new System.Drawing.Size(37, 36);
             this.bt_fois.TabIndex = 12;
@@ -192,7 +193,7 @@
             // bt_div
             // 
             this.bt_div.Location = new System.Drawing.Point(212, 200);
-            this.bt_div.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_div.Margin = new System.Windows.Forms.Padding(2);
             this.bt_div.Name = "bt_div";
             this.bt_div.Size = new System.Drawing.Size(37, 36);
             this.bt_div.TabIndex = 13;
@@ -203,7 +204,7 @@
             // bt_res
             // 
             this.bt_res.Location = new System.Drawing.Point(171, 247);
-            this.bt_res.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_res.Margin = new System.Windows.Forms.Padding(2);
             this.bt_res.Name = "bt_res";
             this.bt_res.Size = new System.Drawing.Size(78, 36);
             this.bt_res.TabIndex = 14;
@@ -214,7 +215,7 @@
             // bt_0
             // 
             this.bt_0.Location = new System.Drawing.Point(80, 200);
-            this.bt_0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_0.Margin = new System.Windows.Forms.Padding(2);
             this.bt_0.Name = "bt_0";
             this.bt_0.Size = new System.Drawing.Size(37, 36);
             this.bt_0.TabIndex = 15;
@@ -225,27 +226,29 @@
             // bt_m
             // 
             this.bt_m.Location = new System.Drawing.Point(26, 200);
-            this.bt_m.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_m.Margin = new System.Windows.Forms.Padding(2);
             this.bt_m.Name = "bt_m";
             this.bt_m.Size = new System.Drawing.Size(37, 36);
             this.bt_m.TabIndex = 16;
             this.bt_m.Text = "M";
             this.bt_m.UseVisualStyleBackColor = true;
+            this.bt_m.Click += new System.EventHandler(this.bt_m_Click);
             // 
             // bt_r
             // 
             this.bt_r.Location = new System.Drawing.Point(135, 200);
-            this.bt_r.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_r.Margin = new System.Windows.Forms.Padding(2);
             this.bt_r.Name = "bt_r";
             this.bt_r.Size = new System.Drawing.Size(37, 36);
             this.bt_r.TabIndex = 17;
             this.bt_r.Text = "R";
             this.bt_r.UseVisualStyleBackColor = true;
+            this.bt_r.Click += new System.EventHandler(this.bt_r_Click);
             // 
             // bt_c
             // 
             this.bt_c.Location = new System.Drawing.Point(80, 245);
-            this.bt_c.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_c.Margin = new System.Windows.Forms.Padding(2);
             this.bt_c.Name = "bt_c";
             this.bt_c.Size = new System.Drawing.Size(37, 39);
             this.bt_c.TabIndex = 18;
@@ -253,11 +256,21 @@
             this.bt_c.UseVisualStyleBackColor = true;
             this.bt_c.Click += new System.EventHandler(this.bt_c_Click);
             // 
+            // rtb_ruban
+            // 
+            this.rtb_ruban.Location = new System.Drawing.Point(319, 19);
+            this.rtb_ruban.Name = "rtb_ruban";
+            this.rtb_ruban.Size = new System.Drawing.Size(256, 263);
+            this.rtb_ruban.TabIndex = 19;
+            this.rtb_ruban.Text = "";
+            this.rtb_ruban.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(295, 294);
+            this.ClientSize = new System.Drawing.Size(294, 294);
+            this.Controls.Add(this.rtb_ruban);
             this.Controls.Add(this.bt_c);
             this.Controls.Add(this.bt_r);
             this.Controls.Add(this.bt_m);
@@ -277,7 +290,7 @@
             this.Controls.Add(this.bt_2);
             this.Controls.Add(this.bt_1);
             this.Controls.Add(this.tb_resultat);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -306,6 +319,7 @@
         private System.Windows.Forms.Button bt_m;
         private System.Windows.Forms.Button bt_r;
         private System.Windows.Forms.Button bt_c;
+        private System.Windows.Forms.RichTextBox rtb_ruban;
     }
 }
 
