@@ -48,6 +48,7 @@
             this.bt_r = new System.Windows.Forms.Button();
             this.bt_c = new System.Windows.Forms.Button();
             this.rtb_ruban = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tb_resultat
@@ -265,11 +266,22 @@
             this.rtb_ruban.Text = "";
             this.rtb_ruban.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(26, 247);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(37, 37);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "^3";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(294, 294);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.rtb_ruban);
             this.Controls.Add(this.bt_c);
             this.Controls.Add(this.bt_r);
@@ -320,6 +332,7 @@
         private System.Windows.Forms.Button bt_r;
         private System.Windows.Forms.Button bt_c;
         private System.Windows.Forms.RichTextBox rtb_ruban;
+        private System.Windows.Forms.Button button1;
     }
 }
 
