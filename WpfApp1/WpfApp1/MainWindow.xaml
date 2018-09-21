@@ -11,6 +11,8 @@
         <Button x:Name="btn_fleche_droite" Content="&gt;" HorizontalAlignment="Left" Margin="307,114,0,0" VerticalAlignment="Top" Width="129" Height="44" FontSize="22" FontWeight="Bold" Click="btn_fleche_droite_Click"/>
         <DataGrid x:Name="TableauParticipants" HorizontalAlignment="Left" Height="263" Margin="486,68,0,0" VerticalAlignment="Top" Width="204"/>
         <Button x:Name="btn_fleche_gauche" Content="&lt;" HorizontalAlignment="Left" Margin="307,224,0,0" VerticalAlignment="Top" Width="129" Height="49" FontSize="22" FontWeight="Bold" Click="btn_fleche_gauche_Click"/>
+        <Label Content="Demandeurs" HorizontalAlignment="Left" Margin="109,24,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.278,0.426" Width="154" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Participants" HorizontalAlignment="Left" Margin="486,24,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.278,0.426" Width="154" FontSize="22" FontWeight="Bold"/>
 
     </Grid>
 </Window>
