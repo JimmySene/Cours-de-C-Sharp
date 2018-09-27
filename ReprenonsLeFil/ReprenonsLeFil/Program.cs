@@ -51,7 +51,7 @@ namespace ReprenonsLeFil
         }
         public string StrSession()
         {
-            return _LaFormation.GetNom();
+            return _LaFormation.GetNom() + ' ' + _Lieu + ' ' + _DateDebut + ' ' + _DateFin;
         }
 
         public int Save()
@@ -82,10 +82,54 @@ namespace ReprenonsLeFil
         private int _Id;
         private string _Nom;
         private int _Niveau;
+        private List<Session> _LesSessions;
+
+        public Formation(int id, string nom)
+        {
+            _Id = id;
+            _Nom = nom;
+        }
+
+        public Formation(int id, string nom, int niveau)
+        {
+            _Id = id;
+            _Nom = nom;
+            _Niveau = niveau;
+        }
 
         public string GetNom()
         {
             return _Nom;
+        }
+
+        public void SetNom(string nom)
+        {
+            _Nom = nom;
+        }
+
+        public string StrFormation()
+        {
+            return _Nom + ' ' + _Niveau;
+        }
+
+        public void SetLeNiveau(int niveau)
+        {
+            _Niveau = niveau;
+        }
+
+        public int Save()
+        {
+            return 0;
+        }
+
+        public Boolean Delete()
+        {
+            return true;
+        }
+
+        public List<Session> GetLesSessions()
+        {
+            return _LesSessions;
         }
 
     }
@@ -96,5 +140,39 @@ namespace ReprenonsLeFil
         private string _Nom;
         private string _Prenom;
         private Session _LaSessionChoisie;
+
+        public Participant(string nom, string prenom, Session session)
+        {
+            _Nom = nom;
+            _Prenom = prenom;
+            _LaSessionChoisie = session;
+        }
+
+        public void SetParticipant(string nom, string prenom, Session session)
+        {
+            _Nom = nom;
+            _Prenom = prenom;
+            _LaSessionChoisie = session;
+        }
+
+        public void SetLaSession(Session session)
+        {
+            _LaSessionChoisie = session;
+        }
+
+        public string StrParticipant()
+        {
+            return _Nom + ' ' + _Prenom;
+        }
+
+        public int Save()
+        {
+            return 0;
+        }
+
+        public Boolean Delete()
+        {
+            return true;
+        }
     }
 }
